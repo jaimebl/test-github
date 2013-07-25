@@ -1,4 +1,4 @@
-test-github en la rama mejorandola
+test-github
 ==========
 Traerse un repositorio
 > git clone http://github.com/.....
@@ -27,3 +27,19 @@ Connect local repo with github repo
 Send README3 to github repo
 > git push origin master
 
+"README.md is modified externally"
+> git add README.md (NOT SURE WHY IS NOT ADDED YET, IT COMES FROM GITHUB REPO)
+> git commit -m "todos los comandos aprendidos"
+> git push origin master
+
+Creating branches
+> git branch dev
+> git branch mejorandola
+Move to branch dev
+> git checkout dev
+Check branches
+> git branch
+Merge dev branch with current one (master in this case)
+> git merge mejorandola
+
+.gitignore => exclude files
